@@ -1,0 +1,12 @@
+h1 {
+   background-color: lightpink;
+   text-align: center;
+   font-size: 300%;
+}
+
+h3 {
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+    ;
+}
