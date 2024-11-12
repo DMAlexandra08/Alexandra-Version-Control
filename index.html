@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PoiretOne">
+    <style>
+        body {
+            font-family: "PoiretOne", sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>
+    <header>
+        <h1>
         Alexandra's Portfolio
         <!--In CSS, I would center, add a background colour, and a border with the links attached-->
-    </h1>
+        </h1>
+    </header>
+    <div class="links">
     <h3>
         <a href="./About.html">About👩🏼</a>
         <a href="./projects.html">Projects📽️</a>
     </h3>
+    </div>
     <p>
     Hey! 🤗<br>
     This is me. I am a SAIT student, working my way to
-    graduating in 2026 under the <i>Graphic Design Major</i>.
-    <img src="./Images/me.jpg" height="200" width="300" alt="a 
+    graduating in 2026 under the <i>Graphic Design Major</i>. <br>
+    <img src="./Images/me.jpg" alt="a 
     picture of me sitting on the fence with my horse. I'm wearing a blue 
     shirt and black jeans, my chestnut horse is standing behind and to the 
-    right of me.">
+    right of me." class="center" height="200" width="300" >
     </p>
     <h4>Currently~</h4>
     <p>
@@ -29,22 +40,29 @@
         project wise. These are all linked with images
         in the <strong><u>projects</u></strong> tab.
     </p>
-    <ol>
-        <li>Digital Media self-produced video <i>[incomplete]</i></li>
-        <li>Personal Logo <i>[complete]</i></li>
-        <li>GitHub profile <i>[complete]</i></li>
-    </ol>
+    <table class="center" style="width: 50%;">
+        <tr>
+        <th>Project & Status</th>
+            <td>Digital Media self-produced video <i>[incomplete]</i></td>
+            <td>Personal Logo <i>[complete]</i></td>
+            <td>GitHub profile <i>[complete]</i></td>
+        </table>
+    
     <p>I'm pretty much an open book, so I've included some of
         my <u>favourite</u> things; 🎇
     </p>
-    <ul>
-        <li>Autumn weather 🍁</li>
-        <li>Books 📖</li>
-        <li>Animals 🐈 </li>
-        <li>Photography📸</li>
-        <li>Movies 🎬</li>
-        <li>Writing ✍🏼</li>
-    </ul>
+    <nav>
+        <ul>
+            <li>Autumn weather 🍁</li>
+            <li>Books 📖</li>
+            <li>Animals 🐈 </li>
+            <li>Photography📸</li>
+            <li>Movies 🎬</li>
+            <li>Writing ✍🏼</li>
+        </ul>
+    </nav>
+<div>
+<aside>
     <section>
         <h2>How to contact me</h2>
         <!--would center, make all these into boxes-->            
@@ -60,6 +78,8 @@
             <a href="https://www.instagram.com/axashots/">axashots</a>
         </p>
 </section>
+</aside>
+</div>
 
 <footer>
     <small>(c) Alexandra Armstrong, 2024</small>
