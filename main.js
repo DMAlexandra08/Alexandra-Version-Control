@@ -25,12 +25,15 @@ const fYear = document.getElementById("footerYear");
 const d = new Date();
 fYear.textContent = d.getFullYear();
 
+//button
+
 const btn = document.getElementById("btn-alert");
     btn.addEventListener("click", function () {
-    alert("Hello!");
+    alert("Welcome to my page!");
     console.log('clicked');
     })
 
+//for loop
 
 const ol = document.getElementById("numbers");
 for (let i = 1; i <=12; i++) {
@@ -41,5 +44,4 @@ for (let i = 1; i <=12; i++) {
         li.textContent = `Odd`;
     }
     ol.appendChild(li);
-}
-
+   }
